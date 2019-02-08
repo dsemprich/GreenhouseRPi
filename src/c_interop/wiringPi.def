@@ -1,0 +1,5 @@
+package = wiringPi
+//linkerOpts -lwiringPi -Lsrc/include/
+//staticLibraries = libwiringPi.a
+//libraryPaths = src/include/
+headers = wiringPi.h wiringPiI2C.h wiringPiSPI.h mcp3004.h softPwm.h softServo.h wiringSerial.h wpiExtensions.h
